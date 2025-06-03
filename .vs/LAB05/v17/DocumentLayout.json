@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|d:\\nt106_lab05\\lab05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|d:\\nt106_lab05\\lab05\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|d:\\nt106_lab05\\lab05\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -19,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|d:\\nt106_lab05\\lab05\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|D:\\NT106_LAB05\\lab05\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|d:\\nt106_lab05\\lab05\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|d:\\nt106_lab05\\lab05\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8D64C148-3D82-44B9-8C93-285092F26E39}|LAB05\\LAB05.csproj|solutionrelative:lab05\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\Program.cs",
-              "RelativeDocumentMoniker": "LAB05\\Program.cs",
-              "ToolTip": "D:\\NT106_LAB05\\LAB05\\Program.cs",
-              "RelativeToolTip": "LAB05\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T15:59:25.891Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,38 +44,14 @@
               "RelativeDocumentMoniker": "LAB05\\Form3.cs",
               "ToolTip": "D:\\NT106_LAB05\\LAB05\\Form3.cs",
               "RelativeToolTip": "LAB05\\Form3.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T15:53:40.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\Form3.cs",
-              "RelativeDocumentMoniker": "LAB05\\Form3.cs",
-              "ToolTip": "D:\\NT106_LAB05\\LAB05\\Form3.cs [Design]",
-              "RelativeToolTip": "LAB05\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T15:39:26.028Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\Form2.cs",
-              "RelativeDocumentMoniker": "LAB05\\Form2.cs",
-              "ToolTip": "D:\\NT106_LAB05\\LAB05\\Form2.cs [Design]",
-              "RelativeToolTip": "LAB05\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T15:39:09.451Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\Menu.cs",
               "RelativeDocumentMoniker": "LAB05\\Menu.cs",
@@ -122,16 +77,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\.gitignore",
-              "RelativeDocumentMoniker": "LAB05\\.gitignore",
-              "ToolTip": "D:\\NT106_LAB05\\LAB05\\.gitignore",
-              "RelativeToolTip": "LAB05\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-02T15:11:36.458Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\Form3.cs",
+              "RelativeDocumentMoniker": "LAB05\\Form3.cs",
+              "ToolTip": "D:\\NT106_LAB05\\LAB05\\Form3.cs [Design]",
+              "RelativeToolTip": "LAB05\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:39:26.028Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\NT106_LAB05\\LAB05\\Form2.cs",
+              "RelativeDocumentMoniker": "LAB05\\Form2.cs",
+              "ToolTip": "D:\\NT106_LAB05\\LAB05\\Form2.cs [Design]",
+              "RelativeToolTip": "LAB05\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:39:09.451Z"
             }
           ]
         }

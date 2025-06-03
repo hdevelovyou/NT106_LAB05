@@ -39,6 +39,8 @@
             label4 = new Label();
             label5 = new Label();
             btnSend = new Button();
+            btnAttach = new Button();
+            tbPath = new TextBox();
             SuspendLayout();
             // 
             // tbTo
@@ -71,7 +73,7 @@
             // 
             // tbBody
             // 
-            tbBody.Location = new Point(149, 314);
+            tbBody.Location = new Point(37, 347);
             tbBody.Name = "tbBody";
             tbBody.Size = new Size(846, 265);
             tbBody.TabIndex = 3;
@@ -125,7 +127,7 @@
             // 
             // btnSend
             // 
-            btnSend.Location = new Point(1032, 407);
+            btnSend.Location = new Point(901, 550);
             btnSend.Name = "btnSend";
             btnSend.Size = new Size(94, 62);
             btnSend.TabIndex = 9;
@@ -133,11 +135,30 @@
             btnSend.UseVisualStyleBackColor = true;
             btnSend.Click += btnSend_Click;
             // 
+            // btnAttach
+            // 
+            btnAttach.Location = new Point(901, 346);
+            btnAttach.Name = "btnAttach";
+            btnAttach.Size = new Size(94, 29);
+            btnAttach.TabIndex = 10;
+            btnAttach.Text = "attach";
+            btnAttach.UseVisualStyleBackColor = true;
+            btnAttach.Click += btnAttach_Click;
+            // 
+            // tbPath
+            // 
+            tbPath.Location = new Point(901, 398);
+            tbPath.Name = "tbPath";
+            tbPath.Size = new Size(250, 27);
+            tbPath.TabIndex = 11;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1157, 624);
+            Controls.Add(tbPath);
+            Controls.Add(btnAttach);
             Controls.Add(btnSend);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -168,5 +189,7 @@
         private Label label4;
         private Label label5;
         private Button btnSend;
+        private Button btnAttach;
+        private TextBox tbPath;
     }
 }

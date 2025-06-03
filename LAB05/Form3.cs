@@ -33,13 +33,25 @@ namespace LAB05
             string subject = tbSubject.Text;
             string body = tbBody.Text;
             string password = tbPasswd.Text;
+            string attachmentPath = tbPath.Text.Trim();
             try
             {
                 var message = new MimeMessage();
                 message.From.Add(MailboxAddress.Parse(fromEmail));
                 message.To.Add(MailboxAddress.Parse(toEmail));
                 message.Subject = subject;
-                message.Body = new TextPart("plain") { Text = body };
+                var bodyBuilder = new BodyBuilder
+                {
+                    TextBody = body
+                };
+
+                // Nếu có file đính kèm và file tồn tại
+                if (!string.IsNullOrEmpty(attachmentPath) && File.Exists(attachmentPath))
+                {
+                    bodyBuilder.Attachments.Add(attachmentPath);
+                }
+
+                message.Body = bodyBuilder.ToMessageBody();
 
                 using var smtp = new SmtpClient();
                 await smtp.ConnectAsync("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
@@ -52,6 +64,17 @@ namespace LAB05
             catch (Exception ex)
             {
                 MessageBox.Show($"Gửi email thất bại:\n{ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnAttach_Click(object sender, EventArgs e)
+        {
+            using OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Title = "Chọn tệp đính kèm";
+
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                tbPath.Text = ofd.FileName;
             }
         }
     }
